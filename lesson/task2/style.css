@@ -1,0 +1,29 @@
+.button{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.buttons{
+  display: flex;
+    align-items: center;
+    justify-content: center;  
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    gap: 20px;
+
+}
+.button.grey{
+    background-color:grey;
+}
+.button.purple{
+    background-color: purple;
+}
+.button.pink{
+    background-color:pink;
+}
+.button.white{
+    background-color:white;
+}

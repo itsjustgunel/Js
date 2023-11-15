@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  
+  .lampaContainer {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .lampaContainer img {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+  }
+  
+  .lampaContainer button {
+    margin-top: 150px;
+  }
+  
+  body {
+    background-color: black;
+  }
